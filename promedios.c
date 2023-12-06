@@ -50,7 +50,16 @@ int main(int argc, char const *argv[])
 
     }
     
-    
+    //encontrar al alumno con mejor promedio 
+    int Malumno = 0;
+    for (int i = 1; i < ALUMNOS; i++)
+    {
+        if (promedioA[i] > promedioA[Malumno]) {
+            Malumno = i;
+        }
+    }
+
+      
     
 
     return 0;
