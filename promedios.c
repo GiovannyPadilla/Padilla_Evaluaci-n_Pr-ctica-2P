@@ -32,8 +32,22 @@ int main(int argc, char const *argv[])
         for (int j = 0; j < PROGRESOS ; i++)
         {
             promedioA[i] = suma/PROGRESOS;
+
         }
         
+    }
+
+    //calculo de promedio del grupo por cada progreso
+
+    for (int j = 0; j < PROGRESOS; j++)
+    {
+        float suma = 0;
+        for (int i = 0; i < ALUMNOS; i++)
+        {
+            suma += notas[i][j];
+        }
+    gpromedio[j]= suma/ALUMNOS;
+
     }
     
     
