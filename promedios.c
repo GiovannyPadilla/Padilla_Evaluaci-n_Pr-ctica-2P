@@ -23,6 +23,20 @@ int main(int argc, char const *argv[])
         }
         
     }
+
+    // Calcular promedio de cada alumno
+
+    for (int i = 0; i < ALUMNOS; i++)
+    {
+        float suma=0;
+        for (int j = 0; j < PROGRESOS ; i++)
+        {
+            promedioA[i] = suma/PROGRESOS;
+        }
+        
+    }
+    
+    
     
 
     return 0;
